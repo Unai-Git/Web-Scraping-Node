@@ -1,0 +1,26 @@
+{
+  "name": "web-scraping-node",
+  "version": "1.0.0",
+  "description": "Programas para extraer información de sitios web.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unai-Git/Web-Scraping-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unai-Git/Web-Scraping-Node/issues"
+  },
+  "homepage": "https://github.com/Unai-Git/Web-Scraping-Node#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
